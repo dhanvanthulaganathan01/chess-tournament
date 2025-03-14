@@ -1,0 +1,110 @@
+*{
+    text-decoration:none
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #333;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button.bg-gray-400 {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  button.bg-blue-600 {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  .grid {
+    display: grid;
+    gap: 15px;
+  }
+  
+  .grid-cols-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .grid-cols-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .flex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .file3{
+    width: 40%;
+  margin: 9px;
+  margin-top:-5px;
+   }
+   .line{
+  
+   }
+   .mt-4{
+    display: inline;
+   }
+   table{
+    border: #6c757d;
+   }
+   th{
+  background-color:grey;
+  width: 250px;
+   }
+   .submit{background-color: #007bff;
+  margin: 30px;
+  }
+  .dote{
+    margin: 0ch;
+    width: 1pc;
+  ;
+  }
+  .ebutton  {
+    background-color: rgb(19, 19, 222);
+    color: white;
+    
+    display: inline;
+  }
+  .dbutton{
+    background-color: rgb(226, 14, 14);
+    color: white;
+  }
